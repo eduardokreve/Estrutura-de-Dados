@@ -14,7 +14,7 @@ TpLista *inicializa(){ //inicializa a lista com NULL
 TpLista *insereini(TpLista *I, int e){
 	TpLista *novo = (TpLista*) malloc (sizeof(TpLista));
 	novo->info = e;
-	novo->prox = I; //
+	novo->prox = I; 
 	return novo;
 }
 
