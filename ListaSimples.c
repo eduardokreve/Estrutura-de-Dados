@@ -4,7 +4,7 @@
 typedef struct lista{
 	int info;
 	struct lista *prox;
-    struct lista *ant;
+    	struct lista *ant;
 }TpLista;
 
 TpLista *inicializa(){ //inicializa a lista com NULL
@@ -94,11 +94,11 @@ int main(){
 	TpLista* I;
 
 	I = inicializa();
-    I = insereini(I, 10);
+    	I = insereini(I, 10);
 	I = insereini(I, 15);
 	I = insereini(I, 24);
-   *I = inseremeio(I, 10, 12);
-   *I = inseremeio(I, 33, 32);
+   	*I = inseremeio(I, 10, 12);
+   	*I = inseremeio(I, 33, 32);
 	I = insereini(I, 1);
 
 
